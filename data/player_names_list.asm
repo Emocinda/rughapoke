@@ -1,27 +1,27 @@
 IF DEF(_RED)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "RED@"
-	db "ASH@"
-	db "JACK@"
+	db "NOVA NOMO@"
+	db "RUĜO@"
+	db "AŜO@"
+	db "ESPERO@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "NOVA NOMO@"
+	db "BLUA@"
+	db "VOLAPUK@"
+	db "ANGLA@"
 ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "NOVA NOMO@"
+	db "BLUA@"
+	db "GARIO@"
+	db "ESPERO@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "RED@"
-	db "ASH@"
-	db "JACK@"
+	db "NOVA NOMO@"
+	db "RUĜA@"
+	db "VOLAPUK@"
+	db "ANGLA@"
 ENDC

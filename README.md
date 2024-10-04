@@ -64,7 +64,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | --------------------------------------------------------------------------------------------------------- | ----------- |
 | Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)] (e.g. Hiker, Youngster) | 28 / 48     |  
 | [Credits](data/credits/credits_text.asm)                                                                  | 0 / 21      |
-| ~[text_1.asm](data/text/text_1.asm)~                                                                      | ~20 / 20~   | ----
+| ~[text_1.asm](data/text/text_1.asm)~                                                                      | ~20 / 20~   | 
 | [text_2.asm](data/text/text_2.asm)                                                                        | 24 / 282    |
 | [text_3.asm](data/text/text_3.asm)                                                                        | 0 / 63      |
 | [text_4.asm](data/text/text_4.asm)                                                                        | 0 / 34      |
@@ -300,7 +300,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/events/diploma.asm](engine/events/diploma.asm)                                                    | 0 / 4       |
 | [engine/events/evolve_trade.asm](engine/events/evolve_trade.asm)                                          | 0 / 1       |
 | [engine/events/hidden_objects/bills_house_pc.asm](engine/events/hidden_objects/bills_house_pc.asm)        | 0 / 5       |
-| ~[engine/events/hidden_objects/school_blackboard.asm](engine/events/hidden_objects/school_blackboard.asm)~| ~10 / 10~   |
+| ~[engine/events/hidden_objects/school_blackboard.asm](engine/events/hidden_objects/school_blackboard.asm)~| ~10 / 10~   |----
 | [engine/events/prize_menu.asm](engine/events/prize_menu.asm)                                              | 0 / 2       |
 | [engine/events/vending_machine.asm](engine/events/vending_machine.asm)                                    | 0 / 4       |
 | [engine/items/item_effects.asm](engine/items/item_effects.asm)                                            | 0 / 17      |

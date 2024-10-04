@@ -1,16 +1,17 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " re-"
+	line "tiri @"
 	text_ram wEnemyMonNick
-	text "!"
+	text "N!"
 	prompt
 
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "uzas @"
 	text_ram wNameBuffer
+	text "N"
 	text_start
 	cont "on @"
 	text_ram wEnemyMonNick
@@ -19,147 +20,147 @@ _AIBattleUseItemText::
 
 _TradeWentToText::
 	text_ram wStringBuffer
-	text " went"
-	line "to @"
+	text " iris"
+	line "al @"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
-	line "@"
+	text "Por la "
 	text_ram wStringBuffer
-	text ","
+	line "@"
+	text "de <PLAYER>,"
 	done
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " sendas"
 	line "@"
 	text_ram wNameBuffer
-	text "."
+	text "N."
 	done
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " ploretas"
+	line "aŭdias"
 	done
 
 _TradeTransferredText::
 	text_ram wNameBuffer
-	text " is"
-	line "transferred."
+	text " estas"
+	line "delogita."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Bone vartu"
 	line "@"
 	text_ram wNameBuffer
-	text "."
+	text "N."
 	done
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text " inter-"
+	line "-ŝanĝos @"
 	text_ram wNameBuffer
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
-	line "@"
+	text "Por la "
 	text_ram wStringBuffer
-	text "."
+	line "@"
+	text "de <PLAYER>."
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "Vetmaŝino!"
+	line "Ĉu ni ludu?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Ve!"
+	line "Neniu ĵetono!"
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Kiam da ĵetonoj"
+	line "veti?"
 	done
 
 _StartSlotMachineText::
-	text "Start!"
+	text "Ek!"
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Ne sufiĉajn"
+	line "ĵetonojn!"
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more "
-	line "go?"
+	text "Unu plia "
+	line "rulado?"
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " viciĝas!"
+	line "Plus @"
 	text_ram wStringBuffer
-	text " coins!"
+	text " ĵetonojn!"
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Ne tiam!"
 	prompt
 
 _YeahText::
-	text "Yeah!@"
+	text "Jes!@"
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "<PK>DEKSO  Viditaj:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "      Kaptitaj:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "<PK>DEKSA  Grado<COLON>"
 	done
 
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MONa Areno"
+	cont "ARENESTRO: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "GAJNINTOJ:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MONa Areno"
+	cont "ARENESTRO: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "GAJNINTOJ:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "#MONa CENTRO"
+	line "Kuracu viajn"
+	cont "lacajn aŭ vundiajn"
+	cont "#MONojn!"
 	done
 
 _PewterCityPokecenterGuyText::

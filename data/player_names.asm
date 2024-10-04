@@ -1,31 +1,31 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	db   "NOVA NOMO"
+	next "RUĜA"
+	next "AŜO"
+	next "ESPERO"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "NOVA NOMO"
+	next "BLUA"
+	next "VOLAPUK"
+	next "ANGLA"
 	db   "@"
 ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "NOVA NOMO"
+	next "BLUA"
+	next "GARIO"
+	next "ESPERO"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	db   "NOVA NOMO"
+	next "RUĜO"
+	next "VOLAPUK"
+	next "ANGLA"
 	db   "@"
 ENDC

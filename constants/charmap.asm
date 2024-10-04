@@ -149,6 +149,20 @@
 	charmap "x",         $b7
 	charmap "y",         $b8
 	charmap "z",         $b9
+	
+	charmap "Ĉ",         $c0
+	charmap "Ĝ",         $c1
+	charmap "Ĥ",         $c2
+	charmap "Ĵ",         $c3
+	charmap "Ŝ",         $c4
+	charmap "Ŭ",         $c5
+
+	charmap "ĉ",         $d0
+	charmap "ĝ",         $d1
+	charmap "ĥ",         $d2
+	charmap "ĵ",         $d3
+	charmap "ŝ",         $d4
+	charmap "ŭ",         $d5
 
 	charmap "é",         $ba
 	charmap "'d",        $bb
@@ -169,9 +183,10 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	; bold unit symbols m and kg; only used in the Pokédex
+	charmap "<bold_m>",  $e9
+	charmap "<bold_k>",  $ea
+	charmap "<bold_g>",  $eb
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed

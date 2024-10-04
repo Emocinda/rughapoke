@@ -62,7 +62,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 | Large files                                                                                               | Progress    |
 | --------------------------------------------------------------------------------------------------------- | ----------- |
-| Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)] (e.g. Hiker, Youngster) | 15 / 27     |
+| Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)] (e.g. Hiker, Youngster) | 15 / 27     |   ----
 | [Credits](data/credits/credits_text.asm)                                                                  | 0 / 21      |
 | ~[text_1.asm](data/text/text_1.asm)~                                                                      | ~20 / 20~   |
 | [text_2.asm](data/text/text_2.asm)                                                                        | 24 / 282    |

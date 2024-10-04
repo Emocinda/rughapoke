@@ -513,21 +513,25 @@ ShowPokedexDataInternal:
 	ld a, c
 	and a
 	jp z, .waitForButtonPress ; if the pokemon has not been owned, don't print the height, weight, or description
-	inc de ; de = address of feet (height)
-	ld a, [de] ; reads feet, but a is overwritten without being used
-	hlcoord 12, 6
-	lb bc, 1, 2
-	call PrintNumber ; print feet (height)
-	ld a, "′"
-	ld [hl], a
+
+; print the height in m (note that height is stored in dm internally [1m = 10dm])
+	inc de ; de = address of height
+	hlcoord 11, 6
+	lb bc, 1, 5
+	call PrintNumber ; print height
 	inc de
-	inc de ; de = address of inches (height)
-	hlcoord 15, 6
-	lb bc, LEADING_ZEROES | 1, 2
-	call PrintNumber ; print inches (height)
-	ld a, "″"
-	ld [hl], a
-; now print the weight (note that weight is stored in tenths of pounds internally)
+	hlcoord 14, 6
+	ld a, [de]
+	sbc 10
+	jr nc, .heightFractional
+	ld [hl], "0" ; if the height is less than 10, put a 0 before the decimal point
+.heightFractional
+	inc hl
+	ld a, [hli]
+	ld [hld], a ; make space for the decimal point by moving the last digit forward one tile
+	ld [hl], "<DOT>"
+; now print the weight in kg (note that weight is stored in hg internally [1kg = 10hg])
+
 	inc de
 	inc de
 	inc de ; de = address of upper byte of weight
@@ -552,9 +556,9 @@ ShowPokedexDataInternal:
 	sub 10
 	ldh a, [hDexWeight]
 	sbc 0
-	jr nc, .next
+	jr nc, .weightFractional
 	ld [hl], "0" ; if the weight is less than 10, put a 0 before the decimal point
-.next
+.weightFractional
 	inc hl
 	ld a, [hli]
 	ld [hld], a ; make space for the decimal point by moving the last digit forward one tile
@@ -589,9 +593,9 @@ ShowPokedexDataInternal:
 	ldh [rNR50], a
 	ret
 
-HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+HeightWeightText:       
+	db   "Alt  ???<bold_m>"
+	next "PZ   ???<bold_k><bold_g>@"
 
 ; XXX does anything point to this?
 PokeText:

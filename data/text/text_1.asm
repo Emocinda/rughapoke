@@ -73,7 +73,7 @@ _NoMoreRoomForItemText::
 _OaksAideHiText::
 	text "Saluton! Mi estas"
 	line "la helpanto de"
-	cont ""Profesoro Kverk!"
+	cont "Profesoro Kverk!"
 
 	para "Se vi kaptas @"
 	text_decimal hOaksAideRequirement, 1, 3

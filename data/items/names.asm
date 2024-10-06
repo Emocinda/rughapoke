@@ -4,7 +4,7 @@ ItemNames::
 	li "BONEG<PK>UJO" 	 ; "ULTRA BALL"
 	li "BON<PK>UJO"   	 ; "GREAT BALL"
 	li "POKéUJO"      	; "POKéBALL"
-	li "URBETOMAPO"     ; "TOWN MAP"
+	li "URBOMAPO"     ; "TOWN MAP"
 	li "BICIKLO"         ; "BICYCLE"
 	li "?????"           ; =
 	li "SAFARI<PK>UJO" ; "SAFARI BALL"

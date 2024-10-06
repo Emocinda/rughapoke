@@ -300,7 +300,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/events/diploma.asm](engine/events/diploma.asm)                                                    | 0 / 4       |
 | [engine/events/evolve_trade.asm](engine/events/evolve_trade.asm)                                          | 0 / 1       |
 | [engine/events/hidden_objects/bills_house_pc.asm](engine/events/hidden_objects/bills_house_pc.asm)        | 0 / 5       |
-| ~[engine/events/hidden_objects/school_blackboard.asm](engine/events/hidden_objects/school_blackboard.asm)~| ~10 / 10~   |----
+| ~[engine/events/hidden_objects/school_blackboard.asm](engine/events/hidden_objects/school_blackboard.asm)~| ~10 / 10~   |
 | [engine/events/prize_menu.asm](engine/events/prize_menu.asm)                                              | 0 / 2       |
 | [engine/events/vending_machine.asm](engine/events/vending_machine.asm)                                    | 0 / 4       |
 | [engine/items/item_effects.asm](engine/items/item_effects.asm)                                            | 0 / 17      |
@@ -308,7 +308,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/link/cable_club.asm](engine/link/cable_club.asm)                                                  | 0 / 5       |
 | [engine/link/print_waiting_text.asm](engine/link/print_waiting_text.asm)                                  | 0 / 1       |
 | [engine/menus/draw_start_menu.asm](engine/menus/draw_start_menu.asm)                                      | 0 / 7       |
-| ~[engine/menus/league_pc.asm](engine/menus/league_pc.asm)~                                                | ~1 / 1~     |
+| [engine/menus/league_pc.asm](engine/menus/league_pc.asm)                                                  | 0 / 1	      |
 | ~[engine/menus/main_menu.asm](engine/menus/main_menu.asm)~                                                | ~17 / 17~   |
 | [engine/menus/naming_screen.asm](engine/menus/naming_screen.asm)                                          | 0 / 4       |
 | [engine/menus/party_menu.asm](engine/menus/party_menu.asm)                                                | 0 / 4       |

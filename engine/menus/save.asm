@@ -173,7 +173,7 @@ SaveSAV:
 	jp DelayFrames
 
 NowSavingString:
-	db "Now saving...@"
+	db "Konservate...@"
 
 SaveSAVConfirm:
 	call PrintText
@@ -496,21 +496,21 @@ ChooseABoxText:
 	text_end
 
 BoxNames:
-	db   "BOX 1"
-	next "BOX 2"
-	next "BOX 3"
-	next "BOX 4"
-	next "BOX 5"
-	next "BOX 6"
-	next "BOX 7"
-	next "BOX 8"
-	next "BOX 9"
-	next "BOX10"
-	next "BOX11"
-	next "BOX12@"
+	db   "UJO 1"
+	next "UJO 2"
+	next "UJO 3"
+	next "UJO 4"
+	next "UJO 5"
+	next "UJO 6"
+	next "UJO 7"
+	next "UJO 8"
+	next "UJO 9"
+	next "UJO10"
+	next "UJO11"
+	next "UJO12@"
 
 BoxNoText:
-	db "BOX No.@"
+	db "UJO No.@"
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

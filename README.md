@@ -287,13 +287,13 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 | Small files                                                                                               | Progress    |
 | --------------------------------------------------------------------------------------------------------- | ----------- |
-| [constants/item_constants.asm](constants/item_constants.asm)                                              | 0 / 4       |
-| [data/battle/stat_names.asm](data/battle/stat_names.asm)                                                  | 0 / 6       |
-| [data/events/prizes.asm](data/events/prizes.asm)                                                          | 0 / 1       |
-| [data/events/trades.asm](data/events/trades.asm)                                                          | 0 / 10      |
-| [data/moves/tmhm_moves.asm](data/moves/tmhm_moves.asm)                                                    | 0 / 4       |
-| [data/text_boxes.asm](data/text_boxes.asm)                                                                | 0 / 13      |
-| [data/yes_no_menu_strings.asm](data/yes_no_menu_strings.asm)                                              | 0 / 14      |
+| [constants/item_constants.asm](constants/item_constants.asm)                                              | 0 / 4 ?     |
+| ~[data/battle/stat_names.asm](data/battle/stat_names.asm)~                                                | ~5 / 5~     |
+| ~[data/events/prizes.asm](data/events/prizes.asm)~                                                        | ~1 / 1~     |
+| ~[data/events/trades.asm](data/events/trades.asm)~                                                        | ~10 / 10~   |
+| [data/moves/tmhm_moves.asm](data/moves/tmhm_moves.asm)                                                    | 0 / 4 ?     |
+| ~[data/text_boxes.asm](data/text_boxes.asm)~                                                              | ~13 / 13~   |
+| ~[data/yes_no_menu_strings.asm](data/yes_no_menu_strings.asm)~                                            | ~14 / 14~   |
 | [engine/battle/core.asm](engine/battle/core.asm)                                                          | 0 / 5       |
 | [engine/battle/end_of_battle.asm](engine/battle/end_of_battle.asm)                                        | 0 / 3       |
 | [engine/debug/debug_menu.asm](engine/debug/debug_menu.asm)                                                | 0 / 4       |
@@ -314,9 +314,9 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/menus/party_menu.asm](engine/menus/party_menu.asm)                                                | 0 / 4       |
 | [engine/menus/players_pc.asm](engine/menus/players_pc.asm)                                                | 0 / 4       |
 | [engine/menus/pokedex.asm](engine/menus/pokedex.asm)                                                      | 0 / 9       |
-| [engine/menus/save.asm](engine/menus/save.asm)                                                            | 0 / 14      |
+| ~[engine/menus/save.asm](engine/menus/save.asm)~                                                          | ~14 / 14~   |
 | ~[engine/menus/start_sub_menus.asm](engine/menus/start_sub_menus.asm)~                                    | ~4 / 4~     |
-| [engine/menus/text_box.asm](engine/menus/text_box.asm)                                                    | 0 / 3       |
+| ~[engine/menus/text_box.asm](engine/menus/text_box.asm)~                                                  | ~3 / 3~     |
 | [engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)                                            | 0 / 6       |
 | [engine/movie/oak_speech/oak_speech2.asm](engine/movie/oak_speech/oak_speech2.asm)                        | 0 / 1       |
 | [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       |

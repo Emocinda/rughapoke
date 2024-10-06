@@ -45,7 +45,7 @@ BuySellQuitText:
 
 UseTossText:
 	db   "UZI"
-	next "FORIG@"
+	next "ĴETI@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -67,11 +67,11 @@ JapaneseMainMenuText:
 
 BattleMenuText:
 	db   "ATAKI <PK><MN>"
-	next "SAKO  FUĜI@"
+	next "SAKO  FOR@"
 
 SafariZoneBattleMenuText:
 	db   "<PK>UJO×       LOGAĴ"
-	next "ŜTONO       FUĜI@"
+	next "ŜTONO       FOR @"
 
 SwitchStatsCancelText:
 	db   "SENDI"

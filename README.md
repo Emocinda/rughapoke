@@ -307,13 +307,13 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/items/town_map.asm](engine/items/town_map.asm)                                                    | 0 / 3       |
 | [engine/link/cable_club.asm](engine/link/cable_club.asm)                                                  | 0 / 5       |
 | [engine/link/print_waiting_text.asm](engine/link/print_waiting_text.asm)                                  | 0 / 1       |
-| [engine/menus/draw_start_menu.asm](engine/menus/draw_start_menu.asm)                                      | 0 / 7       |
+| ~[engine/menus/draw_start_menu.asm](engine/menus/draw_start_menu.asm)~                                    | ~7 / 7~     |
 | [engine/menus/league_pc.asm](engine/menus/league_pc.asm)                                                  | 0 / 1	      |
 | ~[engine/menus/main_menu.asm](engine/menus/main_menu.asm)~                                                | ~17 / 17~   |
-| [engine/menus/naming_screen.asm](engine/menus/naming_screen.asm)                                          | 0 / 4       |
-| [engine/menus/party_menu.asm](engine/menus/party_menu.asm)                                                | 0 / 4       |
-| [engine/menus/players_pc.asm](engine/menus/players_pc.asm)                                                | 0 / 4       |
-| [engine/menus/pokedex.asm](engine/menus/pokedex.asm)                                                      | 0 / 9       |
+| ~[engine/menus/naming_screen.asm](engine/menus/naming_screen.asm)~                                        | ~4 / 4~     |
+| ~[engine/menus/party_menu.asm](engine/menus/party_menu.asm)~                                              | ~4 / 4~     |
+| ~[engine/menus/players_pc.asm](engine/menus/players_pc.asm)~                                              | ~4 / 4~     |
+| [engine/menus/pokedex.asm](engine/menus/pokedex.asm)                                                      | 7 / 9  OK?  |
 | ~[engine/menus/save.asm](engine/menus/save.asm)~                                                          | ~14 / 14~   |
 | ~[engine/menus/start_sub_menus.asm](engine/menus/start_sub_menus.asm)~                                    | ~4 / 4~     |
 | ~[engine/menus/text_box.asm](engine/menus/text_box.asm)~                                                  | ~3 / 3~     |
@@ -322,9 +322,9 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       |
 | [engine/movie/trade2.asm](engine/movie/trade2.asm)                                                        | 0 / 1       |
 | [engine/overworld/player_state.asm](engine/overworld/player_state.asm)                                    | 0 / 1       |
-| [engine/pokemon/bills_pc.asm](engine/pokemon/bills_pc.asm)                                                | 0 / 16      |
-| [engine/pokemon/status_ailments.asm](engine/pokemon/status_ailments.asm)                                  | 0 / 5       |
-| [engine/pokemon/status_screen.asm](engine/pokemon/status_screen.asm)                                      | 0 / 12      |
+| ~[engine/pokemon/bills_pc.asm](engine/pokemon/bills_pc.asm)~                                              | ~16 / 16~   |
+| ~[engine/pokemon/status_ailments.asm](engine/pokemon/status_ailments.asm)~                                | ~5 / 5~     |
+| ~[engine/pokemon/status_screen.asm](engine/pokemon/status_screen.asm)~                                    | ~12 / 12~   |
 | [home/list_menu.asm](home/list_menu.asm)                                                                  | 0 / 1       |
 | [home/names.asm](home/names.asm)                                                                          | 0 / 2       |
 | [home/pokemon.asm](home/pokemon.asm)                                                                      | 0 / 1       |

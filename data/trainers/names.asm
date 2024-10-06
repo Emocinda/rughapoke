@@ -8,13 +8,13 @@ TrainerNames::
 	li "TREJNISTETO♀"	;	JR.TRAINER♀"
 	li "POKéMANIAC"
 	li "SUPER NERD"
-	li "EKSKURSANTO" 	; 	"HIKER"
+	li "EKSKURSANTO" 	; 	"HIKER"  À voir
 	li "CIKLANTO"    	;	"BIKER
 	li "RABISTO"		;	BURGLAR"
 	li "INĜENIERO"		;	ENGINEER"
 	li "KURISTO"		;	JUGGLER"
 	li "FIŜISTO"		;	FISHERMAN"
-	li "NAĜULO"		;	SWIMMER"
+	li "NAĜULO"			;	SWIMMER"
 	li "CUE BALL"
 	li "GAMBLER"
 	li "BELULINO"		;	BEAUTY"

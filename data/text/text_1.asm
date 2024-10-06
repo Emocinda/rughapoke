@@ -78,9 +78,9 @@ _OaksAideHiText::
 	para "Se vi kaptas @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "specojn de #MON,"
-	cont "mi devas doni"
-	cont "al vi"
+	line "specojn de"
+	cont "#MON, mi devas"
+	cont "doni al vi"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "N!"
@@ -103,9 +103,9 @@ _OaksAideUhOhText::
 
 	para "Vi bezonas @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " specojn"
-	line "se vi volas"
-	cont "@"
+	text_start
+	line "specojn se vi"
+	cont "volas @"
 	text_ram wOaksAideRewardItemName
 	text "N."
 	done

@@ -318,7 +318,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~[engine/menus/start_sub_menus.asm](engine/menus/start_sub_menus.asm)~                                    | ~4 / 4~     |
 | ~[engine/menus/text_box.asm](engine/menus/text_box.asm)~                                                  | ~3 / 3~     |
 | [engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)                                            | 0 / 6       |
-| [engine/movie/oak_speech/oak_speech2.asm](engine/movie/oak_speech/oak_speech2.asm)                        | 0 / 1       |
+| ~[engine/movie/oak_speech/oak_speech2.asm](engine/movie/oak_speech/oak_speech2.asm)~                      | ~1 / 1~     |
 | [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       |
 | [engine/movie/trade2.asm](engine/movie/trade2.asm)                                                        | 0 / 1       |
 | [engine/overworld/player_state.asm](engine/overworld/player_state.asm)                                    | 0 / 1       |

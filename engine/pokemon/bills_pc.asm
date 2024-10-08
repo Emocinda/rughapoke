@@ -86,9 +86,9 @@ DisplayPCMainMenu::
 	ret
 
 SomeonesPCText:   db "IES PK@"
-BillsPCText:      db "PK DE VILĈO@"
+BillsPCText:      db "PK DE LEO@"
 PlayersPCText:    db "PK DE @"
-OaksPCText:       db "PK DE KVERK@"
+OaksPCText:       db "PK DE OKIDO@"
 PKMNLeaguePCText: db "<PKMN>LIGO@"
 LogOffPCText:     db "ELŜALTI@"
 

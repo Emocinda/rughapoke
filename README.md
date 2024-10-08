@@ -1,3 +1,5 @@
+Problemoj kun la pokedekso de Kobobo
+
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is an in-progress Esperanto translation of Pokémon Red and Blue, forked from [pret's disassembly][original].
@@ -17,22 +19,22 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 | Japanese   | English   | Spanish   | French    | German    | Italian   | Esperanto (Kaifi) |
 | ---------- | --------- | --------- | --------- | --------- | --------- | ----------------- |
-| Ōkido      | Oak       | Oak       | Chen      | Eich      | Oak       | Kverk             |
+| Ōkido      | Oak       | Oak       | Chen      | Eich      | Oak       | Kverk             | 	OKIDO
 | Nanami     | Daisy     | Dalia     | Nina      | Sarah     | Margi     | Dalia             |
-| Masaki     | Bill      | Bill      | Léo       | Bill      | Bill      | Vilĉjo            |
-| Elder Fuji | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | S-ro Fuĝio        |
-| Takeshi    | Brock     | Brock     | Pierre    | Rocko     | Brock     | Petro             |
-| Kasumi     | Misty     | Misty     | Ondine    | Misty     | Misty     | Maraĵa            |
-| Matis      | Lt. Surge | Lt. Surge | Major Bob | Major Bob | Lt. Surge | L-to Serĝo        |
-| Erika      | Erika     | Erika     | Erika     | Erika     | Erika     | Erika             |
-| Kyō        | Koga      | Koga      | Koga      | Koga      | Koga      | Kogo              |
-| Natsume    | Sabrina   | Sabrina   | Morgane   | Sabrina   | Sabrina   | Sabrina           |
-| Katsura    | Blaine    | Blaine    | Auguste   | Pyro      | Blaine    | Ignaco            |
-| Sakaki     | Giovanni  | Giovanni  | Giovanni  | Giovanni  | Giovanni  | Ĝiovano           |
-| Kanna      | Lorelei   | Lorelei   | Olga      | Lorelei   | Lorelei   | Lorela            |
-| Siba       | Bruno     | Bruno     | Aldo      | Bruno     | Bruno     | Bruno             |
-| Kikuko     | Agatha    | Agatha    | Agatha    | Agathe    | Agatha    | Agata             |
-| Wataru     | Lance     | Lance     | Peter     | Siegfried | Lance     | Lanco             |
+| Masaki     | Bill      | Bill      | Léo       | Bill      | Bill      | Vilĉjo            |	Leo
+| Elder Fuji | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | Mr. Fuji  | S-ro Fuĝio        |	Sro Fuĝio
+| Takeshi    | Brock     | Brock     | Pierre    | Rocko     | Brock     | Petro             |	Petro
+| Kasumi     | Misty     | Misty     | Ondine    | Misty     | Misty     | Maraĵa            |	Ondino
+| Matis      | Lt. Surge | Lt. Surge | Major Bob | Major Bob | Lt. Surge | L-to Serĝo        |	Lto Serĝo
+| Erika      | Erika     | Erika     | Erika     | Erika     | Erika     | Erika             |	Erika
+| Kyō        | Koga      | Koga      | Koga      | Koga      | Koga      | Kogo              |	Kogo
+| Natsume    | Sabrina   | Sabrina   | Morgane   | Sabrina   | Sabrina   | Sabrina           |	Sabrino
+| Katsura    | Blaine    | Blaine    | Auguste   | Pyro      | Blaine    | Ignaco            |	Ignaco
+| Sakaki     | Giovanni  | Giovanni  | Giovanni  | Giovanni  | Giovanni  | Ĝiovano           |	Ĝiovanio
+| Kanna      | Lorelei   | Lorelei   | Olga      | Lorelei   | Lorelei   | Lorela            |	Lorelio
+| Siba       | Bruno     | Bruno     | Aldo      | Bruno     | Bruno     | Bruno             |	Bruno
+| Kikuko     | Agatha    | Agatha    | Agatha    | Agathe    | Agatha    | Agata             |	Agato
+| Wataru     | Lance     | Lance     | Peter     | Siegfried | Lance     | Lanco             |	Lanco
 
 
 ## Progress
@@ -62,7 +64,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 | Large files                                                                                               | Progress    |
 | --------------------------------------------------------------------------------------------------------- | ----------- |
-| Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)] (e.g. Hiker, Youngster) | 28 / 48     |  
+| ~Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)]~						| ~48 / 48~   |  
 | [Credits](data/credits/credits_text.asm)                                                                  | 0 / 21      |
 | ~[text_1.asm](data/text/text_1.asm)~                                                                      | ~20 / 20~   | 
 | [text_2.asm](data/text/text_2.asm)                                                                        | 24 / 282    |

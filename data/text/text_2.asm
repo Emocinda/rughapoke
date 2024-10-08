@@ -12,7 +12,7 @@ _AIBattleUseItemText::
 	line "uzas @"
 	text_ram wNameBuffer
 	text "N"
-	text_start
+	; text_start
 	cont "on @"
 	text_ram wEnemyMonNick
 	text "!"

@@ -595,7 +595,7 @@ ShowPokedexDataInternal:
 
 HeightWeightText:       
 	db   "Alt  ???<bold_m>"
-	next "PZ   ???<bold_k><bold_g>@"
+	next "Pez  ???<bold_k><bold_g>@"
 
 ; XXX does anything point to this?
 PokeText:

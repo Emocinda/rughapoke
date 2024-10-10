@@ -59,7 +59,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [Pokédex descriptions](data/pokemon/dex_text.asm)                                                         | 0 / 151     |
 | ~[Pokédex data](data/pokemon/dex_entries.asm) (e.g. Onix = ROCK SNAKE)~                                   | ~151 / 151~ |
 | ~[Item names](data/items/names.asm)~                                                                      | ~97 / 97~   |
-| Move names [[1](data/moves/names.asm) ~[2](data/moves/field_move_names.asm)~]                             | 117 / 173   |
+| Move names [[1](data/moves/names.asm) ~[2](data/moves/field_move_names.asm)~]                             | 132 / 173   |
 | ~[Place names](data/maps/names.asm)~                                                                      | ~53 / 53~   |
 | ~Default player names [[1](data/player_names.asm) [2](data/player_names_list.asm)]~                       | ~6 / 6~     |
 

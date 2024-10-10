@@ -358,7 +358,7 @@ PrintEndBattleText::
 	pop af
 	ldh [hLoadedROMBank], a
 	ld [MBC1RomBank], a
-	farcall SetEnemyTrainerToStayAndFaceAnyDirection
+	farcall FreezeEnemyTrainerSprite
 	jp WaitForSoundToFinish
 
 GetSavedEndBattleTextPointer::

@@ -518,10 +518,10 @@ GameCornerDrawCoinBox:
 	ret
 
 GameCornerMoneyText:
-	db "MONEY@"
+	db "MONO@"
 
 GameCornerCoinText:
-	db "COIN@"
+	db "ĴETONO@"
 
 GameCornerBlankText1:
 	db "       @"

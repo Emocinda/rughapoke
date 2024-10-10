@@ -1,7 +1,7 @@
 PalletTownName:      db "PALETEJO@"
 ViridianCityName:    db "VIRIDIO@"
 PewterCityName:      db "PEŬTIO@"
-CeruleanCityName:    db "CERULEANIO@"
+CeruleanCityName:    db "CERULANIO@"
 LavenderTownName:    db "LAVENURBO@"
 VermilionCityName:   db "VERMILIO@"
 CeladonCityName:     db "CELADONO@"

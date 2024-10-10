@@ -92,7 +92,7 @@ AnimateHallOfFame:
 	ret
 
 HallOfFameText:
-	db "HALL OF FAME@"
+	db "FAMULO@"		; HALL OF FAME@"
 
 HoFShowMonOrPlayer:
 	call ClearScreen

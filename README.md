@@ -311,7 +311,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~[engine/link/cable_club.asm](engine/link/cable_club.asm)~                                                | ~6 / 5~     |
 | ~[engine/link/print_waiting_text.asm](engine/link/print_waiting_text.asm)~                                | ~1 / 1~     |
 | ~[engine/menus/draw_start_menu.asm](engine/menus/draw_start_menu.asm)~                                    | ~7 / 7~     |
-| [engine/menus/league_pc.asm](engine/menus/league_pc.asm)                                                  | 0 / 1	      | traduko HallOfFame
+| ~[engine/menus/league_pc.asm](engine/menus/league_pc.asm)~                                                | ~1 / 1~     | 
 | ~[engine/menus/main_menu.asm](engine/menus/main_menu.asm)~                                                | ~17 / 17~   |
 | ~[engine/menus/naming_screen.asm](engine/menus/naming_screen.asm)~                                        | ~4 / 4~     |
 | ~[engine/menus/party_menu.asm](engine/menus/party_menu.asm)~                                              | ~4 / 4~     |
@@ -320,7 +320,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~[engine/menus/save.asm](engine/menus/save.asm)~                                                          | ~14 / 14~   |
 | ~[engine/menus/start_sub_menus.asm](engine/menus/start_sub_menus.asm)~                                    | ~4 / 4~     |
 | ~[engine/menus/text_box.asm](engine/menus/text_box.asm)~                                                  | ~3 / 3~     |
-| [engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)                                            | 5 / 6       | traduko HallOfFame
+| ~[engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)~                                          | ~6 / 6~     | 
 | ~[engine/movie/oak_speech/oak_speech2.asm](engine/movie/oak_speech/oak_speech2.asm)~                      | ~1 / 1~     |
 | [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       | credit Nitendo/Sony?
 | ~[engine/movie/trade2.asm](engine/movie/trade2.asm)~                                                      | ~1 / 1~     |
@@ -328,21 +328,21 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~[engine/pokemon/bills_pc.asm](engine/pokemon/bills_pc.asm)~                                              | ~16 / 16~   |
 | ~[engine/pokemon/status_ailments.asm](engine/pokemon/status_ailments.asm)~                                | ~5 / 5~     |
 | ~[engine/pokemon/status_screen.asm](engine/pokemon/status_screen.asm)~                                    | ~12 / 12~   |
-| [home/list_menu.asm](home/list_menu.asm)                                                                  | 0 / 1       |
-| [home/names.asm](home/names.asm)                                                                          | 0 / 2       |
-| [home/pokemon.asm](home/pokemon.asm)                                                                      | 0 / 1       |
-| [home/text.asm](home/text.asm)                                                                            | 0 / 6       |
-| [scripts/BikeShop.asm](scripts/BikeShop.asm)                                                              | 0 / 2       |
-| [scripts/CeladonGym.asm](scripts/CeladonGym.asm)                                                          | 0 / 2       |
-| [scripts/CeruleanGym.asm](scripts/CeruleanGym.asm)                                                        | 0 / 2       |
-| [scripts/CinnabarGym.asm](scripts/CinnabarGym.asm)                                                        | 0 / 2       |
-| [scripts/FuchsiaGym.asm](scripts/FuchsiaGym.asm)                                                          | 0 / 2       |
-| [scripts/GameCorner.asm](scripts/GameCorner.asm)                                                          | 0 / 2       |
-| [scripts/PewterGym.asm](scripts/PewterGym.asm)                                                            | 0 / 2       |
-| [scripts/Route23.asm](scripts/Route23.asm)                                                                | 0 / 7       |
-| [scripts/SaffronGym.asm](scripts/SaffronGym.asm)                                                          | 0 / 2       |
-| [scripts/VermilionGym.asm](scripts/VermilionGym.asm)                                                      | 0 / 2       |
-| [scripts/ViridianGym.asm](scripts/ViridianGym.asm)                                                        | 0 / 2       |
+| ~[home/list_menu.asm](home/list_menu.asm)~                                                                | ~1 / 1~     |
+| ~[home/names.asm](home/names.asm)~                                                                        | ~2 / 2~     |
+| ~[home/pokemon.asm](home/pokemon.asm)~                                                                    | ~1 / 1~     |
+| ~[home/text.asm](home/text.asm)~                                                                          | ~6 / 6~     |
+| ~[scripts/BikeShop.asm](scripts/BikeShop.asm)~                                                            | ~2 / 2~     |
+| ~[scripts/CeladonGym.asm](scripts/CeladonGym.asm)~                                                        | ~2 / 2~     |
+| ~[scripts/CeruleanGym.asm](scripts/CeruleanGym.asm)~                                                      | ~2 / 2~     |
+| ~[scripts/CinnabarGym.asm](scripts/CinnabarGym.asm)~                                                      | ~2 / 2~     |
+| ~[scripts/FuchsiaGym.asm](scripts/FuchsiaGym.asm)~                                                        | ~2 / 2~     |
+| ~[scripts/GameCorner.asm](scripts/GameCorner.asm)~                                                        | ~2 / 2~     |
+| ~[scripts/PewterGym.asm](scripts/PewterGym.asm)~                                                          | ~2 / 2~     |
+| ~[scripts/Route23.asm](scripts/Route23.asm)~                                                              | ~7 / 7~     |
+| ~[scripts/SaffronGym.asm](scripts/SaffronGym.asm)~                                                        | ~2 / 2~     |
+| ~[scripts/VermilionGym.asm](scripts/VermilionGym.asm)~                                                    | ~2 / 2~     |
+| ~[scripts/ViridianGym.asm](scripts/ViridianGym.asm)~                                                      | ~2 / 2~     |
 
 
 ## See also

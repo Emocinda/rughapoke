@@ -178,9 +178,9 @@ HoFDisplayMonInfo:
 	jp PlayCry
 
 HoFMonInfoText:
-	db   "LEVEL/"
-	next "TYPE1/"
-	next "TYPE2/@"
+	db   "NIVELO/"
+	next "TIPO1/"
+	next "TIPO2/@"
 
 HoFLoadPlayerPics:
 	ld de, RedPicFront
@@ -251,10 +251,10 @@ HoFPrintTextAndDelay:
 	jp DelayFrames
 
 HoFPlayTimeText:
-	db "PLAY TIME@"
+	db "LUDA TEMPO@"			;	PLAY TIME@"
 
 HoFMoneyText:
-	db "MONEY@"
+	db "MONO@"
 
 DexSeenOwnedText:
 	text_far _DexSeenOwnedText

@@ -1,4 +1,5 @@
 Problemoj kun la pokedekso de Kobobo
+Titolo de la ruĝa versio ne kompleta
 
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
@@ -58,7 +59,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [Pokédex descriptions](data/pokemon/dex_text.asm)                                                         | 0 / 151     |
 | ~[Pokédex data](data/pokemon/dex_entries.asm) (e.g. Onix = ROCK SNAKE)~                                   | ~151 / 151~ |
 | ~[Item names](data/items/names.asm)~                                                                      | ~97 / 97~   |
-| Move names [[1](data/moves/names.asm) ~[2](data/moves/field_move_names.asm)~]                             | 105 / 173   |
+| Move names [[1](data/moves/names.asm) ~[2](data/moves/field_move_names.asm)~]                             | 117 / 173   |
 | ~[Place names](data/maps/names.asm)~                                                                      | ~53 / 53~   |
 | ~Default player names [[1](data/player_names.asm) [2](data/player_names_list.asm)]~                       | ~6 / 6~     |
 
@@ -296,21 +297,21 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | [data/moves/tmhm_moves.asm](data/moves/tmhm_moves.asm)                                                    | 0 / 4 ?     |
 | ~[data/text_boxes.asm](data/text_boxes.asm)~                                                              | ~13 / 13~   |
 | ~[data/yes_no_menu_strings.asm](data/yes_no_menu_strings.asm)~                                            | ~14 / 14~   |
-| [engine/battle/core.asm](engine/battle/core.asm)                                                          | 0 / 5       |
-| [engine/battle/end_of_battle.asm](engine/battle/end_of_battle.asm)                                        | 0 / 3       |
-| [engine/debug/debug_menu.asm](engine/debug/debug_menu.asm)                                                | 0 / 4       |
-| [engine/events/diploma.asm](engine/events/diploma.asm)                                                    | 0 / 4       |
-| [engine/events/evolve_trade.asm](engine/events/evolve_trade.asm)                                          | 0 / 1       |
-| [engine/events/hidden_objects/bills_house_pc.asm](engine/events/hidden_objects/bills_house_pc.asm)        | 0 / 5       |
+| ~[engine/battle/core.asm](engine/battle/core.asm)~                                                        | ~5 / 5~     |
+| ~[engine/battle/end_of_battle.asm](engine/battle/end_of_battle.asm)~                                      | ~3 / 3~     |
+| ~[engine/debug/debug_menu.asm](engine/debug/debug_menu.asm)~                                              | ~4 / 4~     |
+| ~[engine/events/diploma.asm](engine/events/diploma.asm)~                                                  | ~4 / 4~     |
+| [engine/events/evolve_trade.asm](engine/events/evolve_trade.asm)                                          | 0 / 1 ?     |
+| ~[engine/events/hidden_objects/bills_house_pc.asm](engine/events/hidden_objects/bills_house_pc.asm)~      | ~5 / 5~     |
 | ~[engine/events/hidden_objects/school_blackboard.asm](engine/events/hidden_objects/school_blackboard.asm)~| ~10 / 10~   |
-| [engine/events/prize_menu.asm](engine/events/prize_menu.asm)                                              | 0 / 2       |
-| [engine/events/vending_machine.asm](engine/events/vending_machine.asm)                                    | 0 / 4       |
-| [engine/items/item_effects.asm](engine/items/item_effects.asm)                                            | 0 / 17      |
-| [engine/items/town_map.asm](engine/items/town_map.asm)                                                    | 0 / 3       |
-| [engine/link/cable_club.asm](engine/link/cable_club.asm)                                                  | 0 / 5       |
-| [engine/link/print_waiting_text.asm](engine/link/print_waiting_text.asm)                                  | 0 / 1       |
+| [engine/events/prize_menu.asm](engine/events/prize_menu.asm)                                              | 1 / 2?      |
+| ~[engine/events/vending_machine.asm](engine/events/vending_machine.asm)~                                  | ~4 / 4~     |
+| [engine/items/item_effects.asm](engine/items/item_effects.asm)                                            | 2 / 17?     |
+| ~[engine/items/town_map.asm](engine/items/town_map.asm)~                                                  | ~3 / 3~     |
+| ~[engine/link/cable_club.asm](engine/link/cable_club.asm)~                                                | ~6 / 5~     |
+| ~[engine/link/print_waiting_text.asm](engine/link/print_waiting_text.asm)~                                | ~1 / 1~     |
 | ~[engine/menus/draw_start_menu.asm](engine/menus/draw_start_menu.asm)~                                    | ~7 / 7~     |
-| [engine/menus/league_pc.asm](engine/menus/league_pc.asm)                                                  | 0 / 1	      |
+| [engine/menus/league_pc.asm](engine/menus/league_pc.asm)                                                  | 0 / 1	      | traduko HallOfFame
 | ~[engine/menus/main_menu.asm](engine/menus/main_menu.asm)~                                                | ~17 / 17~   |
 | ~[engine/menus/naming_screen.asm](engine/menus/naming_screen.asm)~                                        | ~4 / 4~     |
 | ~[engine/menus/party_menu.asm](engine/menus/party_menu.asm)~                                              | ~4 / 4~     |
@@ -319,11 +320,11 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~[engine/menus/save.asm](engine/menus/save.asm)~                                                          | ~14 / 14~   |
 | ~[engine/menus/start_sub_menus.asm](engine/menus/start_sub_menus.asm)~                                    | ~4 / 4~     |
 | ~[engine/menus/text_box.asm](engine/menus/text_box.asm)~                                                  | ~3 / 3~     |
-| [engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)                                            | 0 / 6       |
+| [engine/movie/hall_of_fame.asm](engine/movie/hall_of_fame.asm)                                            | 5 / 6       | traduko HallOfFame
 | ~[engine/movie/oak_speech/oak_speech2.asm](engine/movie/oak_speech/oak_speech2.asm)~                      | ~1 / 1~     |
-| [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       |
-| [engine/movie/trade2.asm](engine/movie/trade2.asm)                                                        | 0 / 1       |
-| [engine/overworld/player_state.asm](engine/overworld/player_state.asm)                                    | 0 / 1       |
+| [engine/movie/title.asm](engine/movie/title.asm)                                                          | 0 / 2       | credit Nitendo/Sony?
+| ~[engine/movie/trade2.asm](engine/movie/trade2.asm)~                                                      | ~1 / 1~     |
+| ~[engine/overworld/player_state.asm](engine/overworld/player_state.asm)~                                  | ~1 / 1~     |
 | ~[engine/pokemon/bills_pc.asm](engine/pokemon/bills_pc.asm)~                                              | ~16 / 16~   |
 | ~[engine/pokemon/status_ailments.asm](engine/pokemon/status_ailments.asm)~                                | ~5 / 5~     |
 | ~[engine/pokemon/status_screen.asm](engine/pokemon/status_screen.asm)~                                    | ~12 / 12~   |

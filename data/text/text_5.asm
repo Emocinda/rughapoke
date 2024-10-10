@@ -1,104 +1,104 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Bonvolu revenu!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Ni preparas"
+	line "ĉion."
+	cont "Bonvolu atendu."
 	done
 
 _UsedStrengthText::
 	text_ram wNameBuffer
-	text " used"
-	line "STRENGTH.@"
+	text " uzas"
+	line "FORTECON.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
+	text " povas"
+	line "movi rokojn."
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "La flua multe"
+	line "tro rapidas!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Bicikli amuzigas!"
+	line "Forgesu SURFADON!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Hela EKBRILO"
+	line "lumigas la lokon!"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Al la lasta"
+	line "#MONa CENTRO."
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
+	text " ne povas"
+	line "nun TELEPORTI."
 	prompt
 
 _CannotFlyHereText::
 	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
+	text " ne eblas"
+	line "FLUGI ĉi tie."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Ne sufiĉe"
+	line "sana."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Ne! Vi bezonas"
+	line "novan INSIGNON."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Vi ne povas uzi"
+	line "aĵon ĉi tie."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Vi ne povas"
+	line "piediri ĉi tie."
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> kaptis"
 	line "@"
 	text_ram wNameBuffer
-	text "!@"
+	text "N!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Via teamo jam"
+	line "plenas!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " estas"
+	cont "sendita al"
+	cont "UJO @"
 	text_ram wStringBuffer
-	text " on PC!"
+	text " en PK!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Via teamo jam"
+	line "plenas!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "La #MONa UJO"
+	line "plenas kaj ne"
+	cont "akceptas plian!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Ŝanĝu la UJON en"
+	line "#MONa CENTRO!"
 	done

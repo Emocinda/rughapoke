@@ -68,10 +68,10 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 | ~Trainer types [[1](data/trainers/names.asm) [2](data/trainers/name_pointers.asm)]~						| ~48 / 48~   |  
 | [Credits](data/credits/credits_text.asm)                                                                  | 0 / 21      |
 | ~[text_1.asm](data/text/text_1.asm)~                                                                      | ~20 / 20~   | 
-| [text_2.asm](data/text/text_2.asm)                                                                        | 24 / 282    |
+| [text_2.asm](data/text/text_2.asm)                                                                        | 31 / 282    |
 | [text_3.asm](data/text/text_3.asm)                                                                        | 0 / 63      |
 | [text_4.asm](data/text/text_4.asm)                                                                        | 0 / 34      |
-| [text_5.asm](data/text/text_5.asm)                                                                        | 0 / 17      |
+| ~[text_5.asm](data/text/text_5.asm)~                                                                      | ~17 / 17~   |
 | [text_6.asm](data/text/text_6.asm)                                                                        | 0 / 38      |
 | [text_7.asm](data/text/text_7.asm)                                                                        | 0 / 29      |
 

@@ -164,30 +164,30 @@ _ViridianCityPokecenterGuyText::
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "Jes!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "Kiam DOLĈJO" 
+	line "kantas, #MONoj"
+	cont "iĝas dormemaj..."
 
-	para "...Me too..."
-	line "Snore..."
+	para "...Mi ankaŭ..."
+	line "Ronk..."
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
-	line "#MON!"
+	text "LEO havas multajn"
+	line "#MONojn!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Li ankaŭ kolektas"
+	line "rarajn!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "KLAKLAKO surhavas"
+	line "kranion, ĉu ne?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Homoj multe pagus"
+	line "por unu!"
 	done
 
 _MtMoonPokecenterBenchGuyText::

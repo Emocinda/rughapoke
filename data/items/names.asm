@@ -48,7 +48,7 @@ ItemNames::
 	li "PLIPRECIZILO"    ; "X ACCURACY"
 	li "FOLIOŜTONO"       ; "LEAF STONE"
 	li "ELEKTROKARTO"	; CARD KEY"
-	li "ORERO"		; NUGGET"
+	li "ORERO"			; NUGGET"
 	li "PLUS PPo"		; PP UP"
 	li "POKéPUPO"        ; "POKé DOLL"
 	li "SANIGILO"        ; "FULL HEAL"

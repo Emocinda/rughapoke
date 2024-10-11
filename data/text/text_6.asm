@@ -1,231 +1,232 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ri evitas la"
+	line "<PK>UJON!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Tiu #MON ne"
+	line "estas kaptebla!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Vi maltrafis la"
+	line "#MONon!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Ve! La #MON"
+	line "liberiĝis!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Ne! Ri preskaŭ"
+	line "estis kaptita! "
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Ho! Proksimegas"
+	line "al la kaptado!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Bonege!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " estas"
+	cont "kaptita!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " estas"
+	line "delogita al"
+	cont "la PK de LEO!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " estas"
+	line "delogita al"
+	cont "IES PK!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Nova <PK>DEKSA datumo"
+	line "estas aldonita:"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> rajdas"
+	line "sur @"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Vi ne povas Ĉesi"
+	line "nun!"
 	prompt
 
 _VitaminStatRoseText::
+	text "La "
 	text_ram wNameBuffer
-	text "'s"
+	text " de"
 	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " kreskas"
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Ĝi ne plu"
+	line "utilas."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> lanĉas"
+	line "LOGAĴON."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> lanĉas"
+	line "ŜTONON."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "ludis la #"
+	line "FLUTON."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Ŭaŭ, tio estas"
+	line "bona muziko!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Ĉiuj dormantaj"
+	line "#MONoj vekiĝis."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> ludas"
+	line "# FLUTON.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Ĵetono"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Jes! AĴOTROVILO"
+	line "asertas ke estas"
+	cont "aĵo proksime."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Ne! AĴOTROVILO"
+	line "trovas nenion."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "De kiu kapablo"
+	line "pliigi la PPon?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Al kiu kapablo"
+	line "redoni PPojn?"
 	done
 
 _PPMaxedOutText::
+	text "PP de "
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	line "jam maksimumas."
 	prompt
 
 _PPIncreasedText::
+	text "PP de "
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	line "pliigas."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PPoj redonitaj!"
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "TKa komenco!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "SKa komenco!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Ĝi enhavas je"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "Ĉu instui la TK"
+	line "@"
 	text_ram wStringBuffer
-	text_start
-	line "to a #MON?"
+	text "?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
+	text " ne taŭgas"
+	line "por la kapablo"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "Ri ne eblas lerni"
 	line "@"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	text "OKIDO: <PLAYER>!"
+	line "Ne estas la tempo"
+	cont "por uzi tion! "
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Tio ne estas via!"
+	line "Ne uzu ĝin!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Ĝi tute ne"
+	line "utilus."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "La trejnisto"
+	line "baras la <PK>UJON!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Ne iĝu ŝteliston!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Oni ne rajtas"
+	next "bicikli ĉi tie."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
+	text "Ne SURFADO sur"
 	line "@"
 	text_ram wNameBuffer
-	text " here!"
+	text " tie!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "La Komputila UJO"
+	line "plenas! Vi ne"
+	cont "povas uzi tion!"
 	prompt

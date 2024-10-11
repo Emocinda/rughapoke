@@ -126,7 +126,7 @@ BillsMonListText:
 	db   "EVOLEO"
 	next "FAJRALEO"
 	next "VOLTALEO"
-	next "AKVALER"
+	next "AKVALEO"
 	next "FORIRI@"
 
 BillsHousePokemonListText2:

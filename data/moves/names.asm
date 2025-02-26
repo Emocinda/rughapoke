@@ -54,7 +54,7 @@ MoveNames::
 	li "BRAĜO"			; EMBER"
 	li "FLAMĴETILO"   	; "FLAMETHROWER"
 	li "NEBULETO"		; MIST"
-	li "AKVA PAFILO" 	; "WATER GUN"
+	li "AKVA PAFO" 		; "WATER GUN"
 	li "AKVA PUMPILO"	; HYDRO PUMP"
 	li "SURFADO"		; "SURF"
 	li "GLACIA RADIO"   ; "ICE BEAM"

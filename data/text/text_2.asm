@@ -27,13 +27,14 @@ _TradeWentToText::
 	done
 
 _TradeForText::
-	text "Por la "
-	text_ram wStringBuffer
-	line "@"
-	text "de <PLAYER>,"
+	text "Por la pokemono"
+;	text_ram wStringBuffer
+	line "de <PLAYER>,";	line "@"
+;	text "de <PLAYER>,"
 	done
 
 _TradeSendsText::
+	text "@"
 	text_ram wLinkEnemyTrainerName
 	text " sendas"
 	line "@"
@@ -42,12 +43,14 @@ _TradeSendsText::
 	done
 
 _TradeWavesFarewellText::
+	text "@"
 	text_ram wLinkEnemyTrainerName
 	text " ploretas"
 	line "aŭdias"
 	done
 
 _TradeTransferredText::
+	text "@"
 	text_ram wNameBuffer
 	text " estas"
 	line "delogita."
@@ -158,7 +161,7 @@ _GymStatueText2::
 
 _ViridianCityPokecenterGuyText::
 	text "#MONa CENTRO"
-	line "Kuracu viajn"
+	line "Kuracigu viajn"
 	cont "lacajn aŭ vundiajn"
 	cont "#MONojn!"
 	done

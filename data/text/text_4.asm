@@ -29,10 +29,10 @@ _PokemartBuyingGreetingText::
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "Tio kostas je"
+	line "Tio kostas "
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". Bone?"
+	text "-on. Bone?"
 	done
 
 _PokemartBoughtItemText::
@@ -82,10 +82,13 @@ _PokemartAnythingElseText::
 	done
 
 _LearnedMove1Text::	
-	text_ram wLearnMoveMonName
-	text " lernis"
-	line "je @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer				; text_ram wLearnMoveMonName
+	text_start 							; text " lernis"
+	line "estas lernita"				; line "je @"
+										; cont "estas lernita@"
+	
+	cont "de @"
+	text_ram wLearnMoveMonName			; text_ram wStringBuffer
 	text "!@"
 	text_end
 
@@ -95,41 +98,36 @@ _WhichMoveToForgetText::
 	done
 
 _AbandonLearningText::
-	text "Ĉesu lerni je"
-	line "@"
-	text_ram wStringBuffer
-	text "?"
+	text "Ĉu @"							; text "Ĉesu lerni je"
+	text_ram wStringBuffer				; line "@"
+	text_start	
+	line "estas forgesota?"				; text_ram wStringBuffer
+										; text "?"
 	done
 
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "ne lernis je"
-	cont "@"
-	text_ram wStringBuffer
-	text "!"
+	line "ne lernis"
+	cont "la kapablon!"
+	
+;	para "de @"							; text_ram wStringBuffer
+;	text_ram wLearnMoveMonName			; text "!"
+;	text "!"
 	prompt
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " provas"
-	line "lerni je"
-	cont "@"
-	text_ram wStringBuffer
-	text "!"
-
-	para "Sed, @"
-	text_ram wLearnMoveMonName
-	text_start
-	line "ne plu povas"
-	cont "lerni kapablon!"
-
-	para "Forgesu malnovan"
-	line "por lerni je"
-	cont "@"
-	text_ram wStringBuffer
-	text "?"
+	text " ne plu"
+	line "povas lerni" 
+	
+	para "kapablon, ĉu"
+;	text_ram wLearnMoveMonName
+;	text_start
+	line "vi volas"
+	cont "forgesi malnovan?"
 	done
+	
 
 _OneTwoAndText::
 	text "1, 2 kaj...@"
@@ -153,7 +151,7 @@ _ForgotAndText::
 
 _HMCantDeleteText::
 	text "SK ne estas"
-	line "forgeseblaj!"
+	line "forgesebla!"
 	prompt
 
 _PokemonCenterWelcomeText::

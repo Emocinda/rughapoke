@@ -21,7 +21,7 @@ MonsterNames::
 	db "LAPRASO@@@"		;	LAPRAS
 	db "ARKANISO@@"		;	ARKCANINE@@"
 	db "MJUO@@@@@@"		;	MEW@@@@@@@"
-	db "GYARADOSO@"		;	GYARADOS
+	db "GARADOSO@@"		;	GYARADOS
 	db "ŜELMO@@@@@"		;	SHELLDER@@"
 	db "TENTAĈO@@@"		;	TENTACOOL@"
 	db "GASPERO@@@"		;	GASTLY@@@@"

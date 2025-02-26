@@ -163,30 +163,36 @@ _BootedUpHMText::
 	prompt
 
 _TeachMachineMoveText::
-	text "Ĝi enhavas je"
+	text "Ĝi estas"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Ĉu instui la TK"
-	line "@"
-	text_ram wStringBuffer
-	text "?"
+	para "Ĉu instui la TKon?"
+	;line "@"
+	;text_ram wStringBuffer
+	;text "?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " ne taŭgas"
-	line "por la kapablo"
-	cont "@"
-	text_ram wStringBuffer
-	text "."
-
-	para "Ri ne eblas lerni"
-	line "@"
-	text_ram wStringBuffer
-	text "."
+	text " ne"
+	line "eblas lerni"
+	cont "tiun kapablon."
 	prompt
+	
+;	text_ram wNameBuffer
+;	text " ne taŭgas"
+;	line "por la kapablo"
+;	cont "@"
+;	text_ram wStringBuffer
+;	text "."
+;
+;	para "Ri ne eblas lerni"
+;	line "@"
+;	text_ram wStringBuffer
+;	text "."
+;	prompt
 
 _ItemUseNotTimeText::
 	text "OKIDO: <PLAYER>!"

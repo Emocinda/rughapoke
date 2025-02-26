@@ -1,5 +1,7 @@
 Problemoj kun la pokedekso de Kobobo
 Titolo de la ruĝa versio ne kompleta
+POKé FLUTO => POKéFLUTO
+Problemoj kun la vitaminojn
 
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
